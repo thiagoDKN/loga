@@ -1,0 +1,16 @@
+body {
+    background: #CCCCCC
+
+    img id="banner" src="banner.jpg"
+
+
+
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: #FF0000;
+}
