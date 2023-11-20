@@ -1,16 +1,78 @@
+/* Reset de margens e padding para garantir consistência entre navegadores */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o corpo da página */
 body {
-    background: #CCCCCC
-
-    img id="banner" src="banner.jpg"
-
-
-
-}
-
-p {
+    background-color: black;
+    color: white;
     text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
-em strong {
-    color: #FF0000;
+/* Estilizando o cabeçalho (header) */
+header {
+    background-color: #333;
+    padding: 10px 0;
 }
+
+header h1 {
+    color: #2c61d3;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilizando os serviços */
+.servicos {
+    margin: 30px 0;
+}
+
+.servicos h2 {
+    color: #2c61d3;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    margin: 10px 0;
+}
+
+.servicos ul {
+    list-style: none;
+}
+
+.servicos ul li {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.servicos img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Estilizando o rodapé (footer) */
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+/* Adicione mais estilos conforme necessário */
